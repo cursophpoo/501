@@ -33,3 +33,36 @@ class Conta
         return $this->saldo;
     }
 }
+
+class ContaPoupanca extends Conta
+{
+    public $aniversario = 6;
+
+    public function aplicar($valor)
+    {
+        echo "<hr> Aplicação efetuada <b>$valor</b><hr>";
+        $this->depositar($valor);
+    }
+}
+
+
+class ContaPoupancaConjunta extends ContaPoupanca
+{}
+
+$conta = new Conta();
+$conta->depositar(1200);
+
+$contaPoupanca = new ContaPoupanca();
+$contaPoupanca->depositar(2000);
+
+
+$contaPoupancaConjunta = new ContaPoupancaConjunta(); 
+$contaPoupancaConjunta->aplicar(100);
+
+echo "<pre>";
+var_dump($conta);
+var_dump($contaPoupanca);
+echo "<hr>";
+var_dump($contaPoupancaConjunta);
+echo "<hr>";
+echo "Saldo Conta Conjunta: ". $contaPoupancaConjunta->verSaldo();
