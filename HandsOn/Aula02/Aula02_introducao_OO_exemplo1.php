@@ -15,8 +15,15 @@ class Conta
     //Metodo (visibilidade nome)
     //Metodos podem ou não receber parametros, e podem ou não retornar alguma coisa
     //Para definição do nome usamos o padrão camelCase
-    public function sacar(){
-        
+    public function sacar()
+    {
+
     }
+
+    public function depositar()
+    {
+
+    }
+
 
 }
