@@ -44,7 +44,7 @@ $conta1->titular = "Luciana de Souza Lima";
 $conta2->titular = "Aline de Oliveira";
 
 $conta1->depositar(500);
-$conta2->depositar(100);
+$conta2->depositar(1000);
 
 echo "<pre>";
 var_dump($conta1);
