@@ -1,0 +1,423 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo apt dist-upgrade 
+    4  exit
+    5  sudo apt upgrade
+    6  exit
+    7  cd /media/developer/VBox_GAs_5.2.18/
+    8  ls
+    9  sudo apt install gcc
+   10  sudo apt install make
+   11  ls
+   12  sudo ./VBoxLinuxAdditions.run
+   13  sudo init 6
+   14  sudo apt update
+   15  sudo apt install vim
+   16  vim .bashrc
+   17  exit
+   18  sudo apt install apache2
+   19  sudo systemctl status apache2
+   20  sudo apt install php libapache2-mod-php
+   21  sudo apt install php-cli
+   22  sudo apt install php-cgi
+   23  sudo apt install php-mysql
+   24  sudo apt install php-pgsql
+   25  sudo systemctl restart apache2
+   26  sudo vim /etc/php/7.2/apache2/php.ini
+   27  sudo systemctl restart apache2
+   28  sudo vim /var/www/html/phpinfo.php
+   29  sudo apt install mysql-server
+   30  sudo ss -tap | grep mysql
+   31  sudo su
+   32  sudo apt install postgresql
+   33  sudo systemctl postgresql
+   34  sudo systemctl status postgresql
+   35  sudo su
+   36  sudo apt update
+   37  sudo apt install mysql-workbench
+   38  sudo passwd postgres
+   39  sudo su
+   40  sudo apt install php7.2-mbstring 
+   41  sudo systemctl restart apache2
+   42  sudo apt install php7.2-zip 
+   43  sudo systemctl restart apache2
+   44  sudo apt install php7.2-gd
+   45  sudo systemctl restart apache2
+   46  sudo vim /etc/php/7.2/apache2/php.ini
+   47  sudo apt install php7.2-curl
+   48  sudo systemctl restart apache2
+   49  sudo apt install phpmyadmin
+   50  sudo cp /etc/phpmyadmin/apache.conf /etc/apache2/conf-enabled/phpmyadmin.conf
+   51  sudo systemctl restart apache2
+   52  sudo apt install curl ca-certificates
+   53  curl https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+   54  sudo su
+   55  sudo apt update
+   56  sudo apt upgrade
+   57  sudo apt install postgresql-11 agadmin4
+   58  sudo apt install postgresql-11 pgadmin4
+   59  sudo su
+   60  pgAdmin4
+   61  sudo su
+   62  exit
+   63  sudo su
+   64  sudo apt-get update
+   65  sudo apt-get upgrade
+   66  sudo apt-get dist-upgrade 
+   67  sudo apt-get install sublime-text
+   68  sudo su
+   69  exit
+   70  cd /usr/share/applications
+   71  sudo su
+   72  cd /usr/share/applications
+   73  sudo su
+   74  exit
+   75  sudo su
+   76  exit
+   77  sudo apt update
+   78  sudo apt upgrade
+   79  sudo apt dist-upgrade 
+   80  sudo su
+   81  exit
+   82  sudo su
+   83  exit
+   84  sudo su
+   85  exit
+   86  sudo su
+   87  exit
+   88  sudo su
+   89  exit
+   90  init 6
+   91  sudo su
+   92  exit
+   93  sudo su
+   94  exit
+   95  sudo su
+   96  exit
+   97  sudo su
+   98  exit
+   99  sudo apt update
+  100  sudo apt upgrade
+  101  sudo apt dist-upgrade 
+  102  exit
+  103  sudo apt install php-mysql
+  104  sudo apt install php-pgsql
+  105  sudo apt update
+  106  sudo apt upgrade
+  107  sudo apt dist-upgrade 
+  108  sudo apt autoremove
+  109  ls -la
+  110  exit
+  111  sudo chmod 777 /var/www/html -R
+  112  ls /var/www/html
+  113  exit
+  114  sudo apt install tilix
+  115  exit
+  116  sudo vim .bashrc
+  117  exit
+  118  ls /etc/profile.d
+  119  exit
+  120  sudo vim /etc/php/7.2/apache2/php.ini
+  121  sudo systemctl restart apache2
+  122  sudo vim /etc/php/7.2/apache2/php.ini
+  123  sudo systemctl restart apache2
+  124  exit
+  125  sudo systemctl status mysql
+  126  sudo systemctl status postgresql
+  127  sudo systemctl disable mysql
+  128  sudo systemctl disable postgresql
+  129  git --version
+  130  sudo apt install git
+  131  git --version
+  132  sudo systemctl status mysql
+  133  sudo systemctl start mysql
+  134  sudo systemctl status mysql
+  135  exit
+  136  sudo su
+  137  exit
+  138  sudo su
+  139  exit
+  140  sudo apt update
+  141  sudo apt upgrade
+  142  sudo apt dist-upgrade 
+  143  exit
+  144  sudo vim /etc/php/7.2/apache2/php.ini
+  145  sudo systemctl restart apache2
+  146  exit
+  147  sudo vim /etc/php/7.2/apache2/php.ini
+  148  sudo systemctl restart apache2
+  149  exit
+  150  sudo su
+  151  exit
+  152  sudo su
+  153  exit
+  154  ls
+  155  exit
+  156  sudo su
+  157  exit
+  158  sudo apt update
+  159  sudo apt upgrade
+  160  sudo apt dist-upgrade 
+  161  sudo apt autoremove
+  162  exit
+  163  sudo su
+  164  sudo vim /etc/php/7.2/apache2/php.ini
+  165  cd /etc/apache2/
+  166  ls
+  167  sudo vim apache2.conf
+  168  cd
+  169  exit
+  170  sudo apt update
+  171  sudo apt upgrade
+  172  sudo apt dist-upgrade 
+  173  exit
+  174  sudo vim /etc/php/7.2/apache2/php.ini
+  175  exit
+  176  sudo vim /etc/php/7.2/apache2/php.ini
+  177  sudo systemctl restart apache2
+  178  exit
+  179  sudo apt install php7.2-imap
+  180  sudo systemctl restart apache2
+  181  exit
+  182  cd /usr/local/bin
+  183  ls
+  184  exit
+  185  mhsendmail test@mailhog.local From: App
+  186  /usr/bin/mhsendmail test@mailhog.local From: App
+  187  cd /usr/bin
+  188  mhsendmail
+  189  mhsendmail test@mailhog From: App To: Teste Subject: Mensagem de teste Conteúdo do corpo do e-mail! EOF
+  190  sendmail -S mail:1025
+  191  cd
+  192  sudo vim /etc/php/7.2/apache2/php.ini
+  193  sudo systemctl restart apache2
+  194  /usr/sbin/sendmail -S mail:1025
+  195  /usr/bin/sendmail -S mail:1025
+  196  exit
+  197  ls
+  198  cd Downloads/
+  199  ls
+  200  sudo cp MailHog_linux_amd64 /usr/bin/mailhog
+  201  sudo chmod +x /usr/bin/mailhog
+  202  cd
+  203  cd /usr/bin
+  204  ls
+  205  mailhog
+  206  cd
+  207  ls
+  208  cd Downloads
+  209  ls
+  210  rm -rf MailHog_linux_amd64
+  211  cd
+  212  ls
+  213  wget https://github.com/mailhog/mhsendmail/releases/download/v0.2.0/mhsendmail_linux_amd64
+  214  sudo ln  mhsendmail_linux_amd64 /usr/bin/mhsendmail;sudo ln  mhsendmail_linux_amd64 /usr/bin/sendmail;sudo ln  mhsendmail_linux_amd64 /usr/bin/mail
+  215  ls /usr/bin
+  216  ls /usr/bin | grep mail
+  217  cat /usr/bin/mhsendmail 
+  218  q
+  219  cd /usr/bin
+  220  sudo chmod +x mhsendmail sendmail mail
+  221  mailhog
+  222  exit
+  223  go
+  224  php -r "\$from = \$to = 'your.emailaddress@gmail.com'; \$x = mail(\$to, 'subject'.time(), 'Hello World', 'From: '. \$from); var_dump(\$x);"
+  225  php -r "\$from = \$to = 'ivan.ferro@4linux.com.br'; \$x = mail(\$to, 'subject'.time(), 'Hello World', 'From: '. \$from); var_dump(\$x);"
+  226  sudo vim /etc/php/7.2/apache2/php.ini
+  227  sudo vim /etc/php/7.2/cli/php.ini
+  228  php -r "\$from = \$to = 'ivan.ferro@4linux.com.br'; \$x = mail(\$to, 'subject'.time(), 'Hello World', 'From: '. \$from); var_dump(\$x);"
+  229  systemctl
+  230  systemctl | grep apache2
+  231  cd gocode
+  232  ls
+  233  cd bin
+  234  ls
+  235  cd
+  236  exit
+  237  sudo apt update
+  238  sudo apt upgrade
+  239  sudo apt dist-upgrade 
+  240  mailhog
+  241  cd /usr/local/bin
+  242  ls
+  243  ls -la
+  244  sudo su
+  245  cd
+  246  mailhog
+  247  cd /usr/local/bin
+  248  ls -la
+  249  ls
+  250  dir
+  251  cd
+  252  sudo vim /etc/php/7.2/apache2/php.ini
+  253  sudo systemctl apache2
+  254  sudo systemctl restart apache2
+  255  mailhog
+  256  mailhog -h
+  257  mailhog
+  258  sudo apt install golang-go
+  259  mkdir gocode
+  260  echo "export GOPATH=$HOME/gocode" >> ~/.profile
+  261  source ~/.profile
+  262  go get github.com/mailhog/MailHog
+  263  go get github.com/mailhog/mhsendmail
+  264  ls
+  265  sudo cp gocode/bin/MailHog /usr/local/bin/mailhog
+  266  sudo cp gocode/bin/mhsendmail /usr/local/bin/mhsendmail
+  267  cd gocode
+  268  ls
+  269  ls -la
+  270  cd bin
+  271  ls
+  272  cd
+  273  sudo vim /etc/php/7.2/apache2/php.ini
+  274  sudo systemctl restart apache2
+  275  mailhog -api-bind-addr 127.0.0.1:8025 -ui-bind-addr 127.0.0.1:8025 -smtp-bind-addr 127.0.0.1:1025
+  276  ls /usr/local/bin
+  277  mailhog   -api-bind-addr 127.0.0.1:8025   -ui-bind-addr 127.0.0.1:8025   -smtp-bind-addr 127.0.0.1:1025
+  278  sudo apt install golang-go
+  279  sudo cp gocode/bin/MailHog /usr/local/bin/mailhog
+  280  sudo cp gocode/bin/mhsendmail /usr/local/bin/mhsendmail
+  281  sudo vim /etc/php/7.2/apache2/php.ini
+  282  sudo systemctl restart apache2
+  283  mailhog   -api-bind-addr 127.0.0.1:8025   -ui-bind-addr 127.0.0.1:8025   -smtp-bind-addr 127.0.0.1:1025
+  284  exit
+  285  sudo apt update
+  286  sudo apt upgrade
+  287  sudo apt dist-upgrade 
+  288  exit
+  289  sudo vim .bashrc
+  290  exit
+  291  sudo vim .bashrc
+  292  exit
+  293  sudo systemctl start mysql
+  294  exit
+  295  cd imagens
+  296  ls
+  297  cd Imagens
+  298  ls
+  299  sudo cp *.png /usr/share/lubuntu/wallpapers
+  300  exit
+  301  sudo systemctl status mysql
+  302  sudo systemctl start mysql
+  303  sudo systemctl status mysql
+  304  exit
+  305  sudo apt update
+  306  sudo apt upgrade
+  307  sudo apt dist-upgrade 
+  308  exit
+  309  sudo apt update
+  310  sudo apt upgrade
+  311  sudo apt dist-upgrade 
+  312  sudo systemctl start mysql
+  313  sudo systemctl status mysql
+  314  sudo apt update
+  315  sudo apt upgrade
+  316  sudo apt dist-upgrade 
+  317  exit
+  318  cd /var/www/html
+  319  ls
+  320  cd 500
+  321  ls
+  322  cd projeto
+  323  ls
+  324  git --version
+  325  sudo apt install git
+  326  sudo apt autoremove
+  327  git status
+  328  git init
+  329  git status
+  330  git add .
+  331  git status
+  332  git commit -m "Primeiro commit"
+  333  git config --global user.email "iaferro@gmail.com"
+  334  git config --global user.name "Ivan Ferro"
+  335  git commit -m "Primeiro commit"
+  336  git remote add origin https://iaferro@bitbucket.org/iaferro/projeto_500_novo.git
+  337  git push -u origin master
+  338  exit
+  339  sudo su
+  340  exit
+  341  git status
+  342  sudo systemctl start mysql
+  343  sudo apt update
+  344  sudo apt upgrade
+  345  sudo apt dist-upgrade 
+  346  exit
+  347  sudo systemctl start mysql
+  348  sudo su
+  349  exit
+  350  sudo systemctl start mysql
+  351  exit
+  352  sudo su
+  353  exit
+  354  ls
+  355  cd core
+  356  ls
+  357  rm -rf funcoes.php
+  358  cd ..
+  359  sudo apt update
+  360  sudo apt upgrade
+  361  sudo apt dist-upgrade 
+  362  exit
+  363  sudo systemctl start mysql
+  364  exit
+  365  sudo su
+  366  exit
+  367  man 5 crypt
+  368  man 5 shadow
+  369  man shadow
+  370  man 3 crypt
+  371  man shadow
+  372  man 3 crypt
+  373  man crypt
+  374  sudo su 
+  375  exit
+  376  ip a
+  377  exit
+  378  ip a
+  379  sudo systemctl start mysql
+  380  exit
+  381  sudo systemctl start mysql
+  382  sudo systemctl status mysql
+  383  ecit
+  384  exit
+  385  sudo systemctl status mysql
+  386  sudo systemctl stop mysql
+  387  sudo systemctl status mysql
+  388  q
+  389  sudo su
+  390  exit
+  391  sudo systemctl start mysql
+  392  exit
+  393  sudo apt update
+  394  sudo apt upgrade
+  395  sudo apt upgrade --fix-missing
+  396  sudo apt dist-upgrade 
+  397  exit
+  398  sudo apt update
+  399  sudo apt upgrade
+  400  sudo apt dist-upgrade 
+  401  exit
+  402  sudo su
+  403  exit
+  404  sudo systemctl start postgresql
+  405  exit
+  406  sudo vim .bashrc
+  407  exit
+  408  htop
+  409  exit
+  410  cd /var/www/html/501/HandsOn/Aula01/
+  411  git init
+  412  rm -rf .git
+  413  cd ..
+  414  git init
+  415  git status
+  416  git add .
+  417  git status
+  418  git commit -m "Commit Inicial"
+  419  git status
+  420  git diff
+  421  git add .
+  422  git commit -m "Adicionei bla bla"
+  423  history > comandosgit.txt
