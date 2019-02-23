@@ -53,7 +53,7 @@ $conta = new Conta();
 $conta->depositar(1200);
 
 $contaPoupanca = new ContaPoupanca();
-$contaPoupanca->depositar(2000);
+$contaPoupanca->aplicar(2000);
 
 
 $contaPoupancaConjunta = new ContaPoupancaConjunta(); 
