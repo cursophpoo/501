@@ -11,7 +11,7 @@ interface ContasInterface
 
 }
 
-abstract class ContasAbastract implements ContasInferface
+abstract class ContasAbstract implements ContasInterface
 {
     public $saldo = 0;
     
@@ -19,7 +19,7 @@ abstract class ContasAbastract implements ContasInferface
 
     public function sacar(float $valor) : float
     {
-        if($valor <= $this-saldo){
+        if($valor <= $this->saldo){
             $this->saldo -= $valor;
         } else {
             echo "Saldo insuficiente...<hr>";
