@@ -21,17 +21,17 @@ abstract class ContasAbstract implements ContasInterface, LogInterface
     
     public $titular;
 
-    public function sacar(float $valor) : float
+    public function sacar($valor)
     {
             $this->saldo -= $valor;
     }
 
-    public function depositar(float $valor) : float
+    public function depositar($valor)
     {
         $this->saldo += $valor;
     }
 
-    public function verSaldo(): float 
+    public function verSaldo() 
     {
         return $this->saldo;
     }
