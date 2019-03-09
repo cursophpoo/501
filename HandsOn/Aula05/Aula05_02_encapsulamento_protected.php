@@ -60,7 +60,3 @@ $objPoupanca->aplicar(4000);
 echo "Saldo Atual: " . $objPoupanca->verSaldo();
 echo "<hr>";
 //$objPoupanca->metodoProtegido();
-
-
-
-
