@@ -13,7 +13,7 @@ abstract class Contas
 
     public function sacar($valor)
     {
-        $this->saldo = $valor;
+        $this->saldo -= $valor;
     }
 
 }
