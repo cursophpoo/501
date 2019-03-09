@@ -32,6 +32,7 @@ class ContaPoupanca extends Contas
 {
     public function aplicar($valor)
     {
+        $this->metodoProtegido();
         $this->depositar($valor);
     }
 
@@ -59,4 +60,4 @@ echo "<hr>";
 $objPoupanca->aplicar(4000);
 echo "Saldo Atual: " . $objPoupanca->verSaldo();
 echo "<hr>";
-//$objPoupanca->metodoProtegido();
+//s$objPoupanca->metodoProtegido();
