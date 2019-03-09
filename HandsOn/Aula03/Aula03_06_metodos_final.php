@@ -2,6 +2,7 @@
 
 class Log
 {
+    //public function escrever($dados)
     public final function escrever($dados)
     {
         echo "<hr> Gerando Log ...... <br><br> $dados <br><hr>";
