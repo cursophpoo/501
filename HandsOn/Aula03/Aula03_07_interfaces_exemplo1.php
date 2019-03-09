@@ -55,6 +55,3 @@ $conta = new ContaCorrente();
 echo "Saldo atual: {$conta->depositar(1000)}<hr>";
 echo "Saldo atual: {$conta->sacar(250)}<hr>";
 echo "Saldo atual: {$conta->sacar(2000)}<hr>";
-
-
-

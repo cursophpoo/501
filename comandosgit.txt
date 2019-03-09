@@ -421,3 +421,72 @@
   421  git add .
   422  git commit -m "Adicionei bla bla"
   423  history > comandosgit.txt
+  424  git remote add origin https://github.com/cursophpoo/501.git
+  425  git push -u origin master
+  426  $ git config --global user.name "douglaskoe"
+  427  git config --global user.name "douglaskoe"
+  428  git config --global user.email douglasblima01@gmail.com
+  429  git push  origin master
+  430  git add .
+  431  git diff
+  432  git commit -m "Adicionei bla bla"
+  433  git push  origin master
+  434  clear
+  435  git branch
+  436  git checkout -b Aula02
+  437  git statys
+  438  git status
+  439  git checkout master
+  440  git status
+  441  git add .
+  442  git status
+  443  git branch
+  444  git branch -d Aula02 
+  445  git branch
+  446  git checkout -b Aula02
+  447  git add .
+  448  git commit 
+  449  git commit "Aula02"
+  450  git commit -m "Aula 02"
+  451  git push  origin Aula02 
+  452  git diff
+  453  git add .
+  454  git commit -m "Aula 02"
+  455  git add .
+  456  git commit -m "Aula 02"
+  457  git push  origin Aula02 
+  458  git add .
+  459  git commit -m "Aula 02"
+  460  git push  origin Aula02 
+  461  git checkout -b Aula03
+  462  git add .
+  463  git commit -m "Aula 03"
+  464  git push  origin Aula03 
+  465  git add .
+  466  git commit -m "Aula 03"
+  467  git push  origin Aula03 
+  468  clear
+  469  sudo su
+  470  git commit -m "Aula 03"
+  471  git add .
+  472  git commit -m "Aula 03"
+  473  git push  origin Aula03 
+  474  git add .
+  475  git commit -m "Aula 03"
+  476  git push  origin Aula03 
+  477  git add .
+  478  git commit -m "Aula 03"
+  479  git push  origin Aula03 
+  480  git add .
+  481  git commit -m "Aula 03"
+  482  git push  origin Aula03 
+  483  git add .
+  484  cd /var/www/html/501/
+  485  git add .
+  486  git commit -m "Aula 03"
+  487  git push  origin Aula03 
+  488  git commit -m "Aula 03"
+  489  git add .
+  490  git commit -m "Aula 03"
+  491  git push  origin Aula03 
+  492  history > comandosgit.txt
