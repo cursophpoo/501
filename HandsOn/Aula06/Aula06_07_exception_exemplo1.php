@@ -15,7 +15,6 @@ class Contas
 
     }
 
-
     public function depositar($valor)
     {
         $this->saldo += $valor;
@@ -25,7 +24,6 @@ class Contas
     {
         return $this->saldo;
     }
-
   
 }
 
