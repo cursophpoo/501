@@ -7,7 +7,7 @@ class Contas
     protected $saldo = 500;
     protected $banco = 'Bradesco';
     
-    public function verSaldo()
+    public function getSaldo()
     {
         return $this->saldo;
     }
@@ -28,7 +28,7 @@ class Contas
     protected $saldo = 500;
     protected $banco = 'Itau';
     
-    public function verSaldo()
+    public function getSaldo()
     {
         return $this->saldo;
     }
