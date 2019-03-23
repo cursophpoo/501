@@ -22,16 +22,32 @@ class Usuarios
 
     }
 
+    public function __isset($atributo)
+    {
+        return isset($this->$atributo);
+    }
+
+
+    public function __unset($atributo)
+    {
+        unset($this->$atributo);
+    }
+
 }
 
 
 $usuario = new Usuarios();
 $usuario->nome = "Leticia Lima Souza";
 $usuario->email = "let.lima@ig.com.br";
-$usuario->senha = "456123";
 
 echo "Nome do Usuario: " . $usuario->nome;
 echo "<br>Email do Usuario ". $usuario->email;
+
+echo "<pre>";
+
+echo "<hr>";
+unset($usuario->email);
+var_dump(isset($usuario->email));
 
 echo "<pre><hr>";
 var_dump($usuario);
