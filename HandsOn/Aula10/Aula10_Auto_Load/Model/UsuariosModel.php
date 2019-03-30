@@ -1,0 +1,20 @@
+<?php
+
+namespace Model;
+
+use Lib\Banco;
+use Entities\UsuariosEntity;
+
+class UsuariosModel
+{
+    private $banco;
+    private $usuarios;
+
+    public function __construct(Banco $banco, UsuariosEntity $usuarios)
+    {
+        echo "<hr>Classe Usuarios Model<hr>";
+        $this->banco = $banco;
+        $this->usuarios = $usuarios;
+    }
+
+}
